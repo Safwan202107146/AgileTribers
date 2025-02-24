@@ -1,0 +1,414 @@
+<html>
+<head>
+    <title>HTML TASK SET-2</title>
+</head>
+
+<body>
+    
+<h1>Ex 1 : Basic HTML Table</h1>
+<h1>HTML Table</h1>
+
+<table>
+    <tr>
+        <th>Company</th>
+        <th>Contact</th>
+        <th>Country</th>
+    </tr>
+    <tr>
+        <td>Alfreds Futterkiste</td>
+        <td>Maria Anders</td>
+        <td>Germany</td>
+    </tr>
+    <tr>
+        <td>Centro comercial Moctezuma</td>
+        <td>Franciso Chang</td>
+        <td>Mexico</td>
+    </tr>
+    <tr>
+        <td>Ernt Handel</td>
+        <td>Roland Mendel</td>
+        <td>Austria</td>
+    </tr>
+    <tr>
+        <td>Island Trading</td>
+        <td>Helen Bennett</td>
+        <td>UK</td>
+    </tr>
+    <tr>
+        <td>Laughing Bacchus Winecellars</td>
+        <td>Yoshi Tannamuri</td>
+        <td>Canada</td>
+    </tr>
+    <tr>
+        <td>Magazzini Alimentari Riuniti</td>
+        <td>Giovanni Rovelli</td>
+        <td>Italy</td>
+    </tr>
+</table>    
+
+<hr>
+
+<h1>Ex 2 : Simple Table View</h1>
+<table border="1">
+    <tr>
+        <th>Country</th>
+        <th>Capital</th>
+        <th>Population</th>
+    </tr>
+    <tr>
+        <td>USA</td>
+        <td>Washington,D.C</td>
+        <td>328 million</td>
+    </tr>
+    <tr>
+        <td>India</td>
+        <td>New Delhi</td>
+        <td>1.366 billion</td>
+    </tr>
+    <tr>
+        <td>Japan</td>
+        <td>Tokyo</td>
+        <td>126 million</td>
+    </tr>
+</table>
+<hr>
+
+<h1>Ex 3 : Using Colspan</h1>
+<h1>HTML colspan Attribute</h1>
+<table border="1">
+    
+    <tr>
+        <th>Name</th>
+        <th>Expense</th>
+    </tr>
+    <tr>
+        <td>Arun</td>
+        <td>$10</td>
+    </tr>
+    <tr>  
+        <td>Priya</td>
+        <td>$8</td>
+    </tr>
+    <tr>  
+        <td colspan="2">Sum: $18</td>  
+    </tr>
+
+</table>
+<hr>
+
+
+<h1>Ex 4 : Table with Name & Age</h1>
+<table border="1">
+<thead>
+    <tr>
+        <th colspan="2">FULL NAME</th>
+        <th>AGE</th>
+    </tr>    
+</thead>    
+    
+   <tr>
+    <td>Fabio</td>
+    <td>Cimo</td>
+    <td>20</td>
+   </tr>
+   <tr>
+    <td>Jasmin</td>
+    <td>Brown</td>
+    <td>18</td>
+   </tr>
+   <tr>
+    <td>James</td>
+    <td>Wick</td>
+    <td>35</td>
+   </tr>
+   <tr>
+    <td>Donald</td>
+    <td>Dawn</td>
+    <td>29</td>
+   </tr>
+<tfoot>
+    <tr>
+        <td colspan="2">Average Age</td>
+        <td> 22</td>
+    </tr>
+</tfoot> 
+</table> 
+<hr> 
+   
+
+<h1>Ex 5 : Colspan & Rowspan Usage</h1>
+<p>Combining colspan and rowspan</p>
+<table border="1">
+    <tr>
+        <Th colspan="2" rowspan="2">Header (spans 2 columns and 2 rows)</Th>
+        <td>data</td>
+    </tr>
+         <td>data</td>
+    <tr>
+        <td>data</td>
+        <td>data</td>
+        <td>data</td>
+    </tr>
+</table>
+<hr>
+
+<h1>Ex 6 : Complex Table Structure</h1>
+<table border="1">
+<tr>
+    <th colspan="5">number</th>
+</tr>
+<tr>
+    <td rowspan="2">1</td>
+    <td>2</td>
+    <td>3</td>
+    <td>4</td>
+    <td>5</td>
+</tr>
+<tr>
+    <td>6</td>
+    <td colspan="3">7</td>
+</tr>
+<tr>
+    <td>8</td>
+    <td>9</td>
+    <td rowspan="2">10</td>
+    <td>11</td>
+    <td>12</td>
+</tr>
+<tr>
+    <td>13</td>
+    <td>14</td>
+    <td>15</td>
+    <td>16</td>
+</tr>
+</table>
+<hr>
+
+
+<h1>Ex 7 :Time Table</h1>
+<table border="1">
+    <tr>
+        <th colspan="6">Time Table</th>
+    </tr>
+    <tr>
+        <th rowspan="6">Hours</th>
+        <th>Mon</th>
+        <th>Tues</th>
+        <th>Wed</th>
+        <th>Thurs</th>
+        <th>Fri</th>
+    </tr>
+    <tr>
+        <td>Science</td>
+        <td>Maths</td>
+        <td>Science</td>
+        <td>Maths</td>
+        <td>Arts</td>
+    </tr> 
+    <tr>
+        <td>Science</td>
+        <td>Maths</td>
+        <td>Science</td>
+        <td>Maths</td>
+        <td>Arts</td>
+    </tr>
+    <tr>
+        <th colspan="5">Lunch</th>
+        
+    </tr>
+    <tr>
+        <td>Science</td>
+        <td>Maths</td>
+        <td>Science</td>
+        <td>Maths</td>
+        <td rowspan="2">Project</td>
+    </tr>
+    <tr>
+        <td>Science</td>
+        <td>Maths</td>
+        <td>Science</td>
+        <td>Maths</td>
+    </tr>
+</table>
+<hr>
+
+
+<h1>Ex 8 : Adding Images</h1>
+<img src="C:\Users\mssaf\Downloads\html.png" alt="html">
+<img src="C:\Users\mssaf\Downloads\css.png" alt="css">
+<hr>
+
+
+<h1>Ex 9 : Simple HTML Form</h1>
+<h2>Please Fill And Submit Form :</h2>
+<hr>
+<form>
+    <p>Name: <input type="text"></p>
+    <p>Email: <input type="text"></p>
+</form>
+<button>Submit</button>
+<br><br>
+<hr>
+
+
+<h1>Ex 10 : Radio Buttons in Form</h1>
+<h2>Please Fill And Submit Form :</h2>
+<hr>
+<form>
+    <p>Name: <input type="text"></p>
+    <p>Email: <input type="text"></p>
+</form>
+
+<p>Select A color you like : <br>
+   <input type="radio" name="color" id="Red">Red <br>
+   <input type="radio" name="color" id="Green">Green <br>
+   <input type="radio" name="color" id="Blue">Blue <br>    
+</p>
+<button>Submit</button>    
+<hr>
+
+
+
+
+
+<h1>Ex 11 : Dropdown Select</h1>
+<h2>Please Fill And Submit Form :</h2>
+<hr>
+<form>
+    <p>Name: <input type="text"></p>
+    <p>Email: <input type="text"></p>
+</form>
+
+<p>Select A color you like : <br>
+   <input type="radio" name="color" id="Red">Red <br>
+   <input type="radio" name="color" id="Green">Green <br>
+   <input type="radio" name="color" id="Blue">Blue <br>
+</p>
+
+<p>Select your favorite color:
+    <select name="color" id="color">
+           <option value="Red">Red</option>
+           <option value="Green">Green</option>
+           <option value="Blue">Blue</option>
+           <option value="Yellow">Yellow</option>
+    </select></p>
+<br>    
+<button>Submit</button> 
+
+
+
+<h1>Ex 12 : Checkboxes in Form</h1>
+<h2>Please Fill And Submit Form : </h2>
+<hr>
+<form>
+    <p>Name: <input type="text"></p>
+    <p>Email: <input type="text"></p>
+</form>
+<button>Submit</button>
+<br><br>
+
+<p>Select A color you like : <br>
+    <input type="radio" name="color" id="Red">Red <br>
+    <input type="radio" name="color" id="Green">Green <br>
+    <input type="radio" name="color" id="Blue">Blue <br>
+ </p>
+ <p>Select your favorite color:
+     <select name="color" id="color">
+            <option value="Red">Red</option>
+            <option value="Green">Green</option>
+            <option value="Blue">Blue</option>
+            <option value="Yellow">Yellow</option>
+     </select>
+</p>
+<p>Choose your skill level:<br>
+    <input type="checkbox" name="skill[]" id="Beginner">Beginner
+    <input type="checkbox" name="skill[]" id="Intermediate">Intermediate
+    <input type="checkbox" name="skill[]" id="Advanced">Advanced
+</p>
+<button>Submit</button>
+<hr>
+
+<h1>Ex 13 : Image Showcasing</h1>
+<h2>Image Showcase Using Div Tag</h2>
+<hr>
+<p>div-1</p>
+<h2>Beautiful Sunset</h2>
+<div><img src="C:\Users\mssaf\Downloads\beautiful sunset.png" alt="Beautiful Sunset"></div>
+<p>This is a stunning view of a sunset over the ocean.The golden hues reflecting on the water create a mesmerizing scene that brings transquility and peace to the mind.Behold the majestic mountains standing tall and proud.Their snow-capped peaks touch the sky, and their valleys hide secrets waiting to be explored.A paradise for adventure seekers and nature lovers.</p>
+<p>div-2</p>
+<h2>Majestic Mountains</h2>
+<div><img src="C:\Users\mssaf\Downloads\majestic.png" alt="Majestic Mountains"></div>
+<p>Behold the majestic mountains standing tall and proud.Their snow-capped peaks touch the sky,and their valleys hide secrets waiting to be explored.A paradise sor adventure seekers and nature lovers.This is a stunning view of a sunset over the ocean.The golden hues reflecting on the water create a mesmerizing scene that brings transquility and peace to the mind.</p>
+<hr>
+
+
+<h1>Ex 14 : Embedding Videos</h1>
+<h2>Using Videos in HTML</h2>
+<hr>
+<iframe width="500" src="https://youtu.be/cyp7d-jEvNA?si=oeiUJgmnDs2-3Egm" frameborder="0" allow="accelerometer ; autoplay ; gyroscope; picture-in-picture"allowfullscreen>    
+    </iframe>      
+<hr>
+
+
+<h1>Ex 15 : Advanced Table with Summary</h1>
+<h2>HTML Table Example</h2>
+<table border="1">
+    <tr>
+        <th colspan="2">Student Name</th>
+        <th colspan="3">Labs</th>
+        <th rowspan="2">Avg</th>
+    </tr>
+    <tr>
+        <th>First</th>
+        <th>Last</th>
+        <th>Lab1</th>
+        <th>Lab2</th>
+        <th>Lab3</th>
+    </tr>
+    <tr>
+        <td>Sol</td>
+        <td>Rosenberg</td>
+        <td>100</td>
+        <td>100</td>
+        <td>100</td>
+        <td>100.0</td>
+    </tr>
+    <tr>
+        <td>Frank</td>
+        <td>Rizzo</td>
+        <td>50</td>
+        <td>60</td>
+        <td>90</td>
+        <td>66.6</td>
+    </tr>
+    <tr>
+        <td>Ali</td>
+        <td>Kam</td>
+        <td>90</td>
+        <td>80</td>
+        <td>60</td>
+        <td>76.6</td>
+    </tr>
+    <tr>
+        <th rowspan="2">Summary</th>
+        <th>Avg</th>
+        <td>80.0</td>
+        <td>80.0</td>
+        <td>83.3</td>
+        <td>81.1</td>
+    </tr>
+    <tr>
+        <th>Min</th>
+        <td>50</td>
+        <td>60</td>
+        <td>60</td>
+        <td>66.6</td>
+    </tr>
+</table>
+<hr>
+
+
+
+
+</body>
+</html>

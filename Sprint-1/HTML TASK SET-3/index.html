@@ -1,0 +1,580 @@
+<html>
+    <head>
+        <title>HTML TASK SET-3</title>
+    <h1>Ex 1 : Basic Website Layout</h1>    
+    
+    <style>
+        body{
+            padding: 0;
+            margin: 0;
+        }
+        
+        .exciting{
+            padding: 20px;
+            margin-right: 20px;
+        }
+
+        .container1 {
+            width: 80%;
+            margin: 10px;
+            border: 5px solid black;
+            padding: auto;
+            
+        }
+        .website {
+            background-color:black;
+            padding: 10px;
+        }
+
+        .menubar {
+            color: white;
+            text-decoration: none;
+            display: inline-block;
+            
+        }
+        .blog-section {
+            width: 80%;
+            margin: 20px auto;
+            padding: 20px;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+        }
+        .blog-section img {
+            width: 30%;
+            height: auto;
+            border-radius: 5px;
+            padding: 50px;
+        }
+        
+    
+    </style>
+</head>
+<body>
+    <div class="container1">
+        <h1 class="exciting">My exciting website!</h1>
+    <nav class="website">
+        <a href="#"class="menubar">Home</a><br>
+        <a href="#"class="menubar">Blog</a><br>
+        <a href="#"class="menubar">About Us</a><br>
+        <a href="#"class="menubar">Our History</a><br>
+        <a href="#"class="menubar">Contacts</a>
+    </nav>
+    <section class="blog-section">
+
+        <h2>An Exciting Blog Post</h2>
+        <img src="C:\Users\mssaf\Downloads\parachute.png" alt="parachute">
+        <p>Veggies es bonus vobis, proinde vos postulo essum magis kohlrabi welsh onion daikon amaranth tatsoi tomatillo melon azuki bean garlic.</p>
+        <p>Gumbo beet greens corn soko endive gumbo gourd. Parsley shallot courgette tatsoi pea sprouts fava bean collard greens dandelion okra wakame tomato. Dandelion cucumber earthnut pea peanut soko zucchini.</p>
+        <p>Turnip greens yarrow ricebean rutabaga endive cauliflower sea lettuce kohlrabi amaranth water spinach avocado daikon napa cabbage asparagus winter purslane kale. Celery potato scallion desert raisin horseradish spinach carrot soko. Lotus root water spinach fennel kombu maize bamboo shoot green bean swiss chard seakale pumpkin onion chickpea gram corn pea. Brussels sprout coriander water chestnut gourd swiss chard wakame kohlrabi beetroot carrot watercress. Corn amaranth salsify bunya nuts nori azuki bean chickweed potato bell pepper artichoke.</p>
+    </section>
+</div>
+<hr>
+
+<h1>Ex 2 : Photo Gallery</h1>
+<style>
+    .image-container { 
+        display: inline-block;
+        text-align: center;
+    }
+    .Des {
+        text-align: center;
+    }
+    
+    
+    
+</style>
+<center>
+<div class="image-container">
+    <h3>_______________________Welcome UI Photo Gallery_______________________</h3>
+    <img src="C:\Users\mssaf\Pictures\gallery1.png" alt="">
+    <img src="C:\Users\mssaf\Pictures\gallery2.png"alt="">
+    <img src="C:\Users\mssaf\Downloads\gallery.png"alt="">
+</div>
+<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste error modi aliquam praesentium mollitia rem, natus numquam distinctio eum, facere quia aliquid repellendus tenetur qui! Distinctio repellat mollitia doloribus in!</p>
+<hr>
+<div class="Des">
+    <h2>Decription about the Page</h2>
+    Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. "Richard McClintock", a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of "de Finibus Bonorum et Malorum" (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory of ethics, very popular during the Renaissance. The first line of Lorem Ipsum, "Lorem ipsum dolor sit amet.", comes from a line in section 1.10.32.
+<hr>© 2023 My Simple Web Page. All rights reserved
+</div>
+</center>
+
+<br>
+<br>
+<br>
+<hr> 
+
+
+<h1>Ex 3 : Registration Form</h1>
+<center>
+<div>
+    <h2>Please Fill And Submit Form :</h2>
+    <form>
+    <p>Name: <input type="text"; placeholder="Enter your name"></p>
+    <p>Email: <input type="text" ; placeholder="Enter your email"></p>
+    <p> Age: <input type="number" placeholder="Enter your name"> </p>   
+    <p>Date of birth: <input type="date" placeholder="dd-mm-yyyy"></p>
+    <p>Phone Number:
+        <select name="country-code" id="country-code">
+            <option value="+1">+1 (USA)</option>
+            <option value="+44">+44 (UK)</option>
+            <option value="+91">+91 (IND)</option>
+            <option value="+61">+61(AUS)</option>
+     </select>
+     <input type="tel" placeholder="Enter your Phone number"></p> 
+    <p>Select your gender:
+        <input type="radio" name="gender" id="Male">Male
+        <input type="radio" name="gender" id="Female">Female
+        <input type="radio" name="gender" id="Other">Other
+    </p>
+    <p>Choose your skill level:
+        <input type="checkbox" name="skill[]" id="Beginner">Beginner
+        <input type="checkbox" name="skill[]" id="Intermediate">Intermediate
+        <input type="checkbox" name="skill[]" id="Advanced">Advanced
+    </p>
+    <p>Select your favourite color: <input type="color"></p>
+    <p>Father Name: <input type="text"; placeholder="Enter your Father name"></p>
+    <p>Choose your language:
+        <input type="checkbox" name="language[]" id="Tamil">Tamil
+        <input type="checkbox" name="language[]" id="English">English
+        <input type="checkbox" name="language[]" id="Malayalam">Malayalam
+    </p>
+    <p>Hobbies: <input type="text"; placeholder="Enter your hobbies"></p>
+    <p>Address: <textarea name="Address"></textarea></p>
+    <button>Submit</button>
+</form>
+</div>
+</center>
+
+<hr>
+
+<h1>Ex 4 : Contact Us Page</h1>
+<center>
+    <h2>Contact Us</h2>
+    <p>If you have any question or feedback,please feel free to contact us: <br><br>
+       <b>Email:</b><a href="mailto:contact@example.com">contact@example.com</a><br><br>
+       <b>Phone:</b><a href="tel:+123-456-7890">+123-456-7890</a><br><br>
+       You can also visit our office: <br><br>
+       <em>123 Main Street <br>Cityville,State 12345 <br>Unites States</em> <br> 
+    <div>
+       <img src="C:\Users\mssaf\Downloads\t-shirt.png" alt="t-shirt" style="margin-right: 200px;">
+       <img src="C:\Users\mssaf\Downloads\t-shirt.png" alt="t-shirt">
+    </div>   
+    <p>Mens Casual Premium Slim Fit T-shirts</p>
+<hr>
+</center>
+
+
+<h1>Ex 5 : Informational Webpage (Kitten Kare)</h1>
+    <title>Kitten Kare</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+        }
+        .container {
+            width: 80%;
+            margin: auto;
+            border: 5px solid black;
+            padding: 10px;
+        }
+        .header {
+            background-color: #d3d3d3;
+            padding: 10px;
+            font-size: 24px;
+            font-weight: bold;
+        }
+        .nav {
+            background-color: black;
+            padding: 5px;
+        }
+        .nav a {
+            color: white;
+            text-decoration: none;
+            padding: 10px;
+            display: inline-block;
+        }
+        .content {
+            display: flex;
+            margin-top: 10px;
+        }
+        .main {
+            width: 70%;
+            padding: 10px;
+        }
+        .image img {
+            width: 100%;
+            max-width: 400px;
+        }
+        aside {
+            margin-top: 40px;
+          
+        }
+        .footer {
+            font-size: 13px;
+            margin-top: 10px;
+            
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">Kitten Kare</div>
+        
+        <div class="nav">
+            <a href="#">Home</a>
+            <a href="#">About</a>
+            <a href="#">Services</a>
+        </div>
+
+        <div class="content">
+            <main class="main">
+                <h2>Welcome!</h2>
+                <div class="image">
+                    <img src="C:\Users\mssaf\Downloads\kitten.png" alt="Bear in water">
+                </div>
+                <p class="footer">
+                    The domestic cat (Felis catus) or Felis silvestris catus, informally Felis domesticus, 
+                    is a small, usually furry, domesticated, carnivorous mammal. It is often called the 
+                    housecat when kept as an indoor pet, or simply the cat when there is no need to distinguish 
+                    it from other felines and felids. Cats are valued by humans for companionship and ability 
+                    to hunt vermin and household pests. They are primarily nocturnal.
+                </p>
+            </main>
+            
+            <aside>
+                <h3>Cat Body Types</h3>
+                <ul>
+                    <li>Oriental</li>
+                    <li>Foreign</li>
+                    <li>Semi-Foreign</li>
+                    <li>Semi-Cobby</li>
+                    <li>Cobby</li>
+                </ul>
+            </aside>
+        </div>
+    </div>
+<hr>
+
+
+
+
+<style>
+
+    .bigcontainer6 {
+        border: 5px solid black;
+        margin: 40px;
+    }
+    
+    .bloghead {
+      display: flex;
+      background-color: white; 
+    }
+    
+    .bloghead header {
+      flex: 3;
+      background-color: white;
+      margin: 0;
+      padding: 40px ;
+      font-family: sans-serif;
+    }
+    .bloghead aside {
+      border-color: white;  
+      flex: 1;
+    
+      padding: 20px 0px;
+    }
+    .container6 {
+      display: flex;
+    }
+    .container6 .contents {
+      flex: 3.5;
+    }
+    .sidebar {
+      background-color: goldenrod;
+      flex: 0.5;
+      height: 60px;
+      border-radius: 5px;
+      justify-content: space-between;
+     
+    }
+    .sidebar p {
+      background-color: red;
+      margin: -10px -10px 10px;
+      border-radius: 5px;
+      text-align: center;
+    }
+    .sidebar ul {
+      padding: 0px;
+      text-align: center;
+      list-style-type: none;
+    }
+    .sidebar ul li a {
+      color: black;
+      text-align: center;
+    }
+    .contents article{
+        background-color: white;
+        padding: 10px;
+    }
+
+    </style>
+
+
+
+
+
+
+<h1>Ex 6 : Blog Page with Sidebar </h1>
+    <div class="bigcontainer6">
+        <div class="bloghead">
+            <header>
+              <h1>My Awesome Blog</h1>
+            </header>
+            <aside>
+              <nav>
+                <a href="#">Home</a>
+                <a href="#">About</a>
+              </nav>
+            </aside>
+          </div>
+          <div class="banner">
+            <img
+              src="https://5.imimg.com/data5/PG/LK/OM/GLADMIN-43864090/selection-043-500x500.png"
+              alt="banner"
+              style="width: 100%; height: 500px"
+            />
+            <br/>
+            <br/>
+          </div>
+          <div class="container6">
+            <div class="contents">
+              <article>
+                <h2><a href="#">Title of the first blog</a></h2>
+                <p><b>By Aziz Ali</b></p>
+                <p>
+                  Lorem ipsum dolor sit amet consectetur, adipisicing elit. Debitis
+                  magni omnis suscipit deserunt, architecto corrupti similique fugiat
+                  porro, illo assumenda a? Porro amet esse dolores consequuntur odit
+                  itaque a asperiores?
+                </p>
+                <br />
+                <hr />
+              </article>
+              <article>
+                <h2><a href="#">Title of the first blog</a></h2>
+                <p><b>By Aziz Ali</b></p>
+                <p>
+                  Lorem ipsum dolor sit amet consectetur, adipisicing elit. Debitis
+                  magni omnis suscipit deserunt, architecto corrupti similique fugiat
+                  porro, illo assumenda a? Porro amet esse dolores consequuntur odit
+                  itaque a asperiores?
+                </p>
+              </article>
+            </div>
+            <aside class="sidebar">
+              <p>Useful Links</p>
+              <ul>
+                <li><a href="#">abc.com</a></li>
+                <li><a href="#">xyz.com</a></li>
+              </ul>
+            </aside>
+          </div>
+          <br/>
+    </div>
+<hr>
+
+
+
+
+
+
+
+<h1>Ex 7 : Personal Profile Page</h1>
+
+<style>
+    
+    .container7 {
+        background-color: rgba(13, 13, 13, 0.934);
+        border: 5px;
+        margin: auto;
+        width: 80%;
+        padding: 5px;
+        font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif ;
+    }
+
+    .blue {
+       color: rgb(46, 159, 196); 
+    }
+
+    .container7 h1{
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        font-size: 50px;
+    }
+
+    span {
+        color: lemonchiffon
+        
+    }
+      
+    .white {
+        color: azure;
+    }
+
+    .red{
+        color: red;
+    }
+
+</style>
+
+
+
+
+<div class="container7">
+    <h1 class="blue">About Victoria Kirst</h1>
+    <p class="white">My name is Victoria and I am <span>jolly</span>,<span> clumsy</span>, and <span>four-eyed</span>.</p>
+    <hr>
+    <h2 class="blue">My Classes This Quarter</h2>
+      <ul class="white">
+        <li>CSE 451 - Operating Systems</li>
+        <li>CSE 471 - Computer Design and Organization</li>
+        <li>PHYS 121 - Physics: Mechanics</li>
+        <li>CSE 498 - Research w/ Prof. Luis Ceze</li>
+      </ul>
+    <h2 class="blue">My Favourite Movies</h2>
+      <p class="white"><em>(I actually don't watch too many movies, so... here goes!)</em></p>
+        <ol class="white">
+          <li>The last 30 minutes of Forrest Gump <a href="https://www.imdb.com/title/tt0109830/" class="red">(IMDB)</a></li>
+          <li>Star Trek Episode V with Zazu <a href="https://www.imdb.com/title/tt0098382/" class="red">(IMDB)</a></li>
+          <li>Fight Club (not really, but I've seen like 3 movies total so this is my 3rd fave by technicality)<a href="https://www.imdb.com/title/tt0137523/" class="red">(IMDB)</a></li>
+        </ol>
+
+    <h2 class="blue"> My Moods</h2>
+      <div>
+        <p class="white">Happy:<img src="C:\Users\mssaf\Pictures\happy.png" alt="">
+                         Sad:<img src="C:\Users\mssaf\Downloads\sad.png" alt="">
+        </p>  
+      </div>
+
+<h2 class="blue">Fun Facts About My Neighbors</h2>  
+<ul class="white">
+    <li>Sue Smith: <em>Effervescent</em> is a word that describes her.</li>
+    <li>Bill Thompson: Loves playing <em>Yu-Gi-Oh</em>.</li>
+</ul>
+</div>  
+<hr>
+
+
+<style>
+
+.ex8div1 table,th{
+    border: 1px solid black;
+    border-collapse: collapse;
+    text-align: center;
+  }
+.ex8div1 td{
+    text-align: left;
+    border: 1px solid black;
+    border-collapse: collapse;
+  }
+  .ex8div1 h2{
+    color:rgb(18, 70, 165) ;
+    background-color: rgb(161, 188, 236);
+  }
+  .ex8div1 {
+    display: flex;
+    justify-content: space-between; 
+    margin: 40px;
+    padding: auto;
+    border: 5px solid black;
+  }
+
+  .ex8div1 section{
+    flex: 3;
+  }
+  .ex8aside {
+    flex: 1; 
+    text-align: right; 
+  }
+
+</style>
+
+
+
+
+
+
+
+<h1>Ex 8 : Course and Interests Page</h1>
+    <div class="ex8div1">
+      <section class="ex8sec" >
+        <header>
+          <h2>Courses</h2>
+          <p>Here are some courses I've taken:</p>
+          <table>
+            <tr>
+              <th>Course Number</th>
+              <th>Course Title</th>
+              <th>Semester Taken</th>
+            </tr>
+            <tr>
+              <th colspan="3" style="text-align: center;"><b>For credit</b></th>
+            </tr>
+            <tr style="color:  rgb(48, 97, 188); background-color: lightgray;">
+              <td><b>6.813</b></td>
+              <td>User Interface Design</td>
+              <td>Spring 2014</td>
+            </tr>
+            <tr>
+              <td  style="color:  rgb(48, 97, 188);"><b>6.003</b></td>
+              <td>Artificial Intelligence</td>
+              <td>Fall 2013</td>
+            </tr>
+            <tr style="background-color: lightgray;">
+              <td style="color:  rgb(48, 97, 188);"><b>6.813</b></td>
+              <td>Introduction to Algorithms</td>
+              <td>Fall 2013</td>
+            </tr>
+            <tr>
+              <th colspan="3" style="text-align: center;"><b>Listener</b></th>
+            </tr>
+            <tr  style="background-color: lightgray;">
+              <td style="color:  rgb(48, 97, 188);">6.246</td>
+              <td>Machine Learning</td>
+              <td>Fall 2013</td>
+            </tr>
+            <tr>
+              <td style="color:  rgb(48, 97, 188); " >6.005</td>
+              <td>Database Systems</td>
+              <td>Fall 2012</td>
+            </tr>
+          </table>
+        </header>
+        <h2>Interests</h2>
+        <p>I am interested in <strong>HCI</strong>,memes and youtube videos.</p>
+     
+      </section>
+      <aside class="ex8aside">
+        <img src="C:\Users\mssaf\Downloads\dog.png">
+      </aside>
+    </div>
+
+
+
+
+<hr>
+
+
+
+
+
+
+
+
+
+
+
+
+</body>
+</html>
+
+
